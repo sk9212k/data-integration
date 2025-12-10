@@ -1,0 +1,20 @@
+# Ignore environment files
+.env
+
+# Ignore editor/lock/temp files
+.~lock.*
+*.swp
+*.tmp
+*.log
+
+# Ignore compiled code
+bin/
+obj/
+
+# Terraform junk
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Python cache (if using Python later)
+__pycache__/
